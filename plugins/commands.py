@@ -66,7 +66,7 @@ async def start(client, message):
             parse_mode='html'
         )
         await message.reply_chat_action("Typing")
-        m=await message.reply_sticker("CAACAgUAAxkBAAIPXGJSc5k6HvsmJF9Q_cOmkCpk_YkfAAL9AgACfEI5VyymEiruzHd8HgQ") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAKooWJSd_-7O-Vao-ImRHZkLkVNBei4AAKcAAPIlGQUc48AAfPaxYX8HgQ") 
         await asyncio.sleep(1)
         await m.delete()
         return
